@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hi.css">
+    <title>Rock Paper Scissors</title>
+    <style>
+        body {
+            background-image: url("1_hPhzeFD3htF7ly1AMmAVbw.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices">
+            <button class="choice" id="rock" style="background-color: pink;">Rock</button>
+            <button class="choice" id="paper" style="background-color: skyblue;">Paper</button>
+            <button class="choice" id="scissors" style="background-color:yellow;">Scissors</button>
+        </div>
+        <div class="result">
+            <h2 id="resultText"></h2>
+        </div>
+        <div class="score">
+            <h3>Player Score: <span id="playerScore">0</span></h3>
+            <h3>Computer Score: <span id="computerScore">0</span></h3>
+        </div>
+    </div>
+    <script src="hi.js"></script>
+</body>
+</html>
